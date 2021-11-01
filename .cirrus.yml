@@ -1,2 +1,4 @@
-container:
-  image: node:latest
+task:
+  container:
+    image: node:latest
+    script: "echo Hello"
