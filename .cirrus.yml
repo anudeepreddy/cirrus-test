@@ -1,5 +1,7 @@
 container:
   image: node:latest
+  cpu: 8
+  memory: 16G
 
 build-task:
     show_script:
