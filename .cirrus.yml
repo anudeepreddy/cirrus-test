@@ -2,4 +2,5 @@ task:
   name: Build
   container:
     image: node:latest
-    show_script: cat hello-world/package.json
+    show_script: 
+      - cat hello-world/package.json
